@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--simple battleship-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!DOCTYPE html>
+
+      <h1>Battleship Game</h1>
+<h4>Instructions</h4>      
+      <p>Enter a row and a grid number 1-10</p>
+      <p>It will tell you when you hit and when you miss<br> as well as keep track of your hits and misses and<br>
+      ships sunk. The red box will populate when you have won<br>
+      you will not beable to guess numbers outside of the range<br>
+      or number that you have already guessed.</p>
+      <h4>Enter ship spot</h4>
+      <form>
+<input type="number" name="quantity" placeholder="Row" min="1" max="10" id="myText">
+<input type="number" name="quantity" placeholder="Column" min="1" max="10" id="columnInput">
+      
+      </form>
+      
+
+
+  
+  
+  <button onclick="main()">Fire</button>
+<button onclick="placeShip()">Place Ship</button>
+    
+<p id="demo"></p>
+
+      <h4>Hits</h4>
+ <div id="hitCount"></div>
+       <h4>Misses</h4>
+ <div id="missCount"></div>
+      <h4>Ships Sunk</h4>
+      <div id="battleship"></div>
+      <div id="sub"></div>
+      <div id="destroyer"></div>
+      <div id="aircraft"></div>
+      
+      <div id="win"></div>
+            
+
+</body>
+</html><!-- page content -->
+
