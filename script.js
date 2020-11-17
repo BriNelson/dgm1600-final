@@ -87,7 +87,7 @@ function placeShipFive() {
             placeShipFive(); }// function called again to retry placeing the ship, needs to be fixed or it could recurse forever
 }
 
-
+//seeing if my git works
 
 
 
